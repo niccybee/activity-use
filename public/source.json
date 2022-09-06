@@ -1,0 +1,124 @@
+{
+  "interactions": [
+    {
+      "id": 0,
+      "title": "Grammar Activity",
+      "type": "text",
+      "content": {
+        "question": "",
+        "word": {},
+        "multi": {
+          "a": {},
+          "b": {},
+          "c": {}
+        },
+        "listenAudio": {},
+        "answer": {},
+        "video": {}
+      },
+      "body": "Hi welcome to your new learning actiivty. Each interaction is a fun learning experience.",
+      "actions": [{}],
+      "state": {
+        "showButtons": false,
+        "answered": false,
+        "correct": false,
+        "info": false,
+        "read": false,
+        "data": {}
+      }
+    },
+    {
+      "id": 1,
+      "title": "Welcome to Grammar Activity 1",
+      "type": "text",
+      "content": {
+        "question": "",
+        "word": {},
+        "multi": {
+          "a": {},
+          "b": {},
+          "c": {}
+        },
+        "listenAudio": {},
+        "answer": {},
+        "video": {}
+      },
+      "body": "This is the start of a fun learning actiivty. Each interaction is a fun learning experience you will cherish.",
+      "actions": [{}],
+      "state": {
+        "showButtons": false,
+        "answered": false,
+        "correct": false,
+        "info": false,
+        "read": false,
+        "": {}
+      }
+    },
+    {
+      "id": 2,
+      "title": "A video introducing the topic",
+      "type": "video",
+      "content": {
+        "question": "",
+        "word": {},
+        "multi": {
+          "a": {},
+          "b": {},
+          "c": {}
+        },
+        "listenAudio": {},
+        "answer": {},
+        "video": {}
+      },
+      "body": "<iframe width='100%' src='https://www.youtube.com/embed/416MT-VmJdI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+      "actions": [{}],
+      "state": {
+        "showButtons": false,
+        "answered": false,
+        "correct": false,
+        "info": false,
+        "read": false,
+        "": {}
+      }
+    },
+    {
+      "id": 3,
+      "title": "A first activity introducing the thing",
+      "type": "multichoice",
+      "content": {
+        "question": "Where was Nic born?",
+        "word": {},
+        "multi": {
+          "a": {
+            "text": "East St Kilda",
+            "value": "esk"
+          },
+          "b": {
+            "text": "East Brighton",
+            "value": "eb"
+          },
+          "c": {
+            "text": "East Melbourne",
+            "value": "em"
+          }
+        },
+        "listenAudio": {},
+        "answer": {
+          "value": "esk",
+          "answer_text": "Nic was born in East St Kilda"
+        },
+        "video": {}
+      },
+      "body": "Test our this fun activity",
+      "actions": [{}],
+      "state": {
+        "showButtons": false,
+        "answered": false,
+        "correct": false,
+        "info": false,
+        "read": false,
+        "": {}
+      }
+    }
+  ]
+}

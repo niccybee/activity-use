@@ -1,12 +1,23 @@
+
 # Exploring the an education activity interface.
-
-A UI experiment for educational activity design. 
-
-Exploring different aspects of the activity interface design. 
 
 ## Initial Mock-up
 
 ![initial mock-up for the design](./public/eg.png)
+
+## Play by play
+
+A UI experiment for educational activity design. 
+
+Exploring different aspects of the activity interface design.
+
+Initial attempts trying to use Swipr library to emulate slides and swipe action. Then placing cards inside each 'slide'
+
+Fiddled with cards per page, mobile worked best at 2 desktop at 3 per page. May need to resize later– gave up no 'auto' which seemed to want to make the full page per slide.
+
+Refactoring the cards so we can have an initial circle card on beginning and a finish card. Also need card to change dependent on which type of interaction it will be.
+
+
 
 ## Definitions
 
@@ -34,8 +45,8 @@ Multi-step vertical swipe mechanism.
 
 [ ] Mobile-friendly interface ->
 
-- [ ] Snap to scroll sections
-- [ ] Max-widths
+- [ ] Snap to scroll sections 
+- [ ] Max-widths (380px)
 
 
 [ ] Different interaction types ->
