@@ -31,34 +31,35 @@ The way I think about an activity.
 
 Multi-step vertical swipe mechanism.
 - Current most popular social media is Tik Tok, the movements on mobile navigation are embedded in common muscle-memory
-- 
-- 
+- swipe up to continue learning, videos in each section 
+- activities and activity log should saved as you progress (local and push to db)
 
-[ ] Connection between individual interactions
-[ ] Visual flow between description and interaction block
+- [ ] Connection between individual interactions
+- [ ] Visual flow between description and interaction block
 
 
 ## Needs:
 
-[ ] Show correct or incorrect state based on interaction.
-[ ] A panel to indicate activity completeness and (?) success
+- [ ] Show correct or incorrect state based on interaction.
+- [ ] A panel to indicate activity completeness and (?) success
 
-[ ] Mobile-friendly interface ->
+- [/] Mobile-friendly interface ->
 
-- [ ] Snap to scroll sections 
-- [ ] Max-widths (380px)
+  - [/] Snap to scroll sections 
+  - [/] Max-widths (380px) - currently 500px
 
 
 [ ] Different interaction types ->
 
-- [ ] Multi-choice 
+- [/] Info Box
+- [ ] Example Box
+- [ ] Multi-choice - in progress
 - [ ] Spelling
 - [ ] Listen & Repeat
 - [ ] Custom HTML ? 
-- [ ] Video
+- [/] Video
 
 
-## Outside Scope 
+## Outside Initial Scope 
 
 [ ] Fonts for learning exploration
-[ ] 
