@@ -3,7 +3,9 @@ import CardStartItem from "./CardStartItem.vue";
 import CardInfoBox from "./CardInfoBox.vue";
 import CardVideoBox from "./CardVideoBox.vue";
 import CardMultiChoice from "./CardMultiChoice.vue";
+import CardButtons from "./CardButtons.vue";
 import { useMainStore } from "../stores/state";
+import { ref } from "vue";
 
 const main = useMainStore();
 
@@ -11,12 +13,17 @@ const props = defineProps({
   data: {},
 });
 let firstCard = "m1 max-w-[420px]";
-let regCard = "m-1 bg-white rounded-[10px] p-4 max-w-[500px]";
+let regCard = "m-1 bg-white rounded-[10px] p-4 w-full max-w-[500px]";
+let withButtons = "rounded-t-[10px]";
+
+const cardType = () => {
+  if (props.data.i === 0) return firstCard;
+  if (props.data.s.showButtons) return withButtons;
+};
 // const item = data.s;
 </script>
 <template>
   <article :class="props.data.i === 0 ? firstCard : regCard">
-    <!-- <p>{{ data.s }}</p> -->
     <div v-if="main.debug.showPropsDisplay" class="bg-white rounded-md px-4 py-2">
       {{ props.data }}
     </div>
@@ -25,19 +32,6 @@ let regCard = "m-1 bg-white rounded-[10px] p-4 max-w-[500px]";
     <CardVideoBox v-if="data.s.type === 'video'" :data="data.s" />
     <CardMultiChoice v-if="data.s.type === 'multichoice'" :data="data.s" />
     <!-- Buttons -->
-    <div
-      v-if="props.data.s.showButtons"
-      id="card-interact"
-      class="flex justify-between items-center"
-    >
-      <button
-        class="bg-white text-blue-800 border-blue-800 border-inside px-4 py-2 rounded-[10px]"
-      >
-        Back
-      </button>
-      <button class="bg-blue-500 text-white border-none px-4 py-2 rounded-[10px]">
-        Forward
-      </button>
-    </div>
+    <CardButtons v-show="data.s.state.showButtons" />
   </article>
 </template>

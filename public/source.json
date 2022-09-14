@@ -43,7 +43,7 @@
         "answer": {},
         "video": {}
       },
-      "body": "This is the start of a fun learning actiivty. Each interaction is a fun learning experience you will cherish.",
+      "body": "This is the start of a fun learning activity. Each interaction is a fun learning experience you will cherish.",
       "actions": [{}],
       "state": {
         "showButtons": false,
@@ -51,7 +51,7 @@
         "correct": false,
         "info": false,
         "read": false,
-        "": {}
+        "test": {}
       }
     },
     {
@@ -78,7 +78,7 @@
         "correct": false,
         "info": false,
         "read": false,
-        "": {}
+        "test": {}
       }
     },
     {
@@ -112,12 +112,12 @@
       "body": "Test our this fun activity",
       "actions": [{}],
       "state": {
-        "showButtons": false,
+        "showButtons": true,
         "answered": false,
         "correct": false,
         "info": false,
         "read": false,
-        "": {}
+        "test": {}
       }
     }
   ]

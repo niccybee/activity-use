@@ -15,7 +15,10 @@ Initial attempts trying to use Swipr library to emulate slides and swipe action.
 
 Fiddled with cards per page, mobile worked best at 2 desktop at 3 per page. May need to resize later– gave up no 'auto' which seemed to want to make the full page per slide.
 
+/![spacing issues with slides](./public/spacing-issues.png)
+
 Refactoring the cards so we can have an initial circle card on beginning and a finish card. Also need card to change dependent on which type of interaction it will be.
+
 
 
 
@@ -59,6 +62,9 @@ Multi-step vertical swipe mechanism.
 - [ ] Custom HTML ? 
 - [/] Video
 
+
+## New Tasks
+- [ ] Net and back buttons for navigating the interaction
 
 ## Outside Initial Scope 
 

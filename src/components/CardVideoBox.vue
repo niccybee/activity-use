@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-[10px] bg-white p-4 w-full">
+  <div class="w-full">
     <h1>{{ data.title }}</h1>
     <div class="rounded-md">
       <div v-html="data.body || data.content.video"></div>
